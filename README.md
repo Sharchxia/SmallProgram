@@ -1,2 +1,2 @@
 # SmallProgram
-some interesting program have been written.
+some interesting programs.
