@@ -1,0 +1,17 @@
+image = imread('lena.bmp');
+image_128 = histeq(image,128);
+image_64 = histeq(image,64);
+image_32 = histeq(image,32);
+image_16 =histeq(image,16);
+image_8 = histeq(image,8);
+image_4 = histeq(image,4);
+image_2 = histeq(image,2);
+figure('NumberTitle','off','MenuBar','none','Name','不同灰度级分辨率下的图像','color','g');
+subplot(2,4,1); imshow(image);title('原图');
+subplot(2,4,2); imshow(image_128);title('128分辨率');
+subplot(2,4,3); imshow(image_64);title('64分辨率');
+subplot(2,4,4); imshow(image_32);title('32分辨率');
+subplot(2,4,5); imshow(image_16);title('16分辨率');
+subplot(2,4,6); imshow(image_8);title('8分辨率');
+subplot(2,4,7); imshow(image_4);title('4分辨率');
+subplot(2,4,8); imshow(image_2);title('2分辨率');
