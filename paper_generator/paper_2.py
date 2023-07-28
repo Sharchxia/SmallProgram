@@ -246,7 +246,7 @@ if __name__ == '__main__':
         note.add(ii, text=str(fra.index(ii) * 5 + 1) + '~' + str(fra.index(ii) * 5 + 5))
         if fra.index(ii)==4:
             note.add(ii, text='历史得分')
-    win.title('试卷')
+    win.title('基于tkinter的试卷组成')
     win.geometry('650x650')
     win.minsize(600, 650)
     can1 = tk.Canvas(fra[4],bg='white')  # 画布1
